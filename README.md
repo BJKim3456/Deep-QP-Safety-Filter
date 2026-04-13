@@ -80,11 +80,11 @@ outputs/inference/<env_name>/
 To train the Deep QP Safety Filter for a specific system:
 
 ```bash
-python3 train_filter.py --config configs/filter_training/<env_name>.yaml
+python3 train_filter.py --config configs/<env_name>.yaml
 ```
 For example:
 ```bash
-python3 train_filter.py --config configs/filter_training/hopper.yaml
+python3 train_filter.py --config configs/hopper.yaml
 ```
 
 Training outputs are saved under:

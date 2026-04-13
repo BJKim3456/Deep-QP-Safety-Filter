@@ -1,7 +1,14 @@
 """
-This code implements safe RL using PPO with a learned Deep QP Safety Filter.
-The safety filter is regarded as part of the environment, so that the RL loop
-becomes an MDP over the filtered actions.
+This code implements a safe RL(using PPO) with learned safety filter.
+The safety filter is regarded as part of the environment, so that the RL learning framework becomes an MDP. 
+for the core logic only, we provide the following pseudo-code:
+
+get the current state s and the safety constraint c from the environment
+for each u_rl from the RL policy:
+    get the safety critic's value, coeff, scalar for (s, c)
+    get the filtered action u_env by solving the QP with (value, coeff, scalar, u_rl)
+    execute u_env in the environment, and get the next state s', reward r, next constraint c', and done signal d
+    use (s, u_rl, r, s', c', d) as a transition data for the RL algorithm.
 """
 
 import argparse
