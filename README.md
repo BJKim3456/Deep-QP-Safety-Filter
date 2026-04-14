@@ -24,7 +24,7 @@
 Deep QP Safety Filter is a fully data-driven safety layer for black-box dynamical systems.
 
 The method learns a reachability-based QP safety filter directly from transition data, without requiring an explicit system model.
-It learns a discounted safety value together with its input-dependent derivative terms, and then uses them inside a quadratic program to minimally modify a raw control input into a safe control input.
+It learns a discounted safety value together with its derivative terms, and then uses them inside a quadratic program to minimally modify a raw control input into a safe control input.
 
 This repository includes:
 
