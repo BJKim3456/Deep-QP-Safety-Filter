@@ -1,13 +1,29 @@
 # Deep QP Safety Filter
 
 <!-- <p align="center">
-  <img src="media/Hopper/safety_filtering_bangbang.gif" width="85%" alt="Deep QP Safety Filter on Hopper"/>
-</p> -->
-
-<p align="center">
   <img src="media/Hopper/safety_filtering_random.gif" width="48%" alt="demo1"/>
   <img src="media/Hopper/safety_filtering_bangbang.gif" width="48%" alt="demo2"/>
 </p>
+<p align="center">
+  <strong>Model-free learning of a reachability-based QP safety filter for black-box dynamical systems</strong>
+</p> -->
+
+<!-- <p align="center">
+  <a href="https://arxiv.org/abs/2601.21297">Paper</a>
+</p> -->
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="media/Hopper/safety_filtering_random.gif" width="100%" alt="random policy safety filtering"/><br/>
+      <sub><b>Safety filtering with a random policy</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="media/Hopper/safety_filtering_bangbang.gif" width="100%" alt="bangbang policy safety filtering"/><br/>
+      <sub><b>Safety filtering with a bang-bang policy</b></sub>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <strong>Model-free learning of a reachability-based QP safety filter for black-box dynamical systems</strong>
