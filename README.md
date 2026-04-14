@@ -30,7 +30,7 @@ This repository includes:
 
 - online training for the Deep QP Safety Filter
 - inference with pretrained safety filters
-- safe reinforcement learning with PPO and a learned safety filter
+- safe reinforcement learning(PPO) with a learned safety filter
 - Gymnasium / MuJoCo experiments including Inverted Pendulum, Inverted Double Pendulum, and Hopper
 
 ---
