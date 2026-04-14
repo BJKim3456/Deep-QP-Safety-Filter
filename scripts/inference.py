@@ -24,7 +24,6 @@ def parse_args():
     parser.add_argument("--task-time", type=float, default=30.0)
     parser.add_argument("--alpha", type=float, default=1.0)
     parser.add_argument("--margin", type=float, default=0.2)
-    parser.add_argument("--constraint-scale", type=float, default=1.0)
     parser.add_argument("--seed", type=int, default=12345678)
 
     parser.add_argument(
