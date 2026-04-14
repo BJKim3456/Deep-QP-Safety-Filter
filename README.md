@@ -75,7 +75,7 @@ outputs/inference/<env_name>/
 
 ---
 
-## Train the Safety Filter
+## Train Safety Filter
 
 To train the Deep QP Safety Filter for a specific system:
 
@@ -101,7 +101,7 @@ including:
 
 ---
 
-## Train Safe Reinforcement Learning
+## Safe Reinforcement Learning
 
 To train PPO with the learned safety filter on Hopper:
 
@@ -122,28 +122,6 @@ Outputs are saved under:
 outputs/safe_rl/<env_name>/<run_id>/
 ```
 ---
-<!-- 
-## Notes
-
-- The safety filter is trained task-agnostically using only transition data and safety signals.
-- The same learned filter can be reused across tasks through the aggressiveness parameter.
-- The default hidden width is 256 for the safety filter.
-- The safety filter uses 2 hidden layers for most environments, and 3 hidden layers for Hopper.
-- In safe RL, the PPO actor and critic use 2 hidden layers for the inverted double pendulum tasks, and 3 hidden layers for Hopper.
-
---- -->
-
-<!-- ## Demo Asset
-
-Place the Hopper demo GIF at:
-
-```text
-assets/hopper_demo.gif
-```
-
-so that it renders at the top of this README.
-
---- -->
 
 ## Citation
 
